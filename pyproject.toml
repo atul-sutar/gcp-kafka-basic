@@ -1,0 +1,12 @@
+[project]
+name = "gcp-kafka-basic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "confluent-kafka>=2.11.0",
+    "google-auth>=2.40.3",
+    "packaging>=25.0",
+    "urllib3>=2.5.0",
+]
