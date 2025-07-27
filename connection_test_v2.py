@@ -78,8 +78,8 @@ def kafka_consume(configuration, topic_name):
 if __name__ == "__main__":
     kafka_input_topic_name = "kafka-input"
     kafka_output_topic_name = "kafka-output"
-    kafka_boostrap_url = 'bootstrap.kafka-cluster.us-central1.managedkafka.platform-workspace-a-001.cloud.goog:9092'
-    kafka_sa_account = 'kafka-producer-consumer@platform-workspace-a-001.iam.gserviceaccount.com'
+    kafka_boostrap_url = 'boostrap-server-url'
+    kafka_sa_account = 'service-account-name'
 
     print("Checking the connection and credentials")
     config = check_environment(kafka_url=kafka_boostrap_url, kafka_service_account=kafka_sa_account)
