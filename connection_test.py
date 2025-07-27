@@ -15,10 +15,10 @@ def nslookup(domain):
         print(f"Unable to resolve domain {domain}")
 
 
-nslookup("bootstrap.my-kafka-cluster.us-central1.managedkafka.platform-workspace-a-001.cloud.goog")
+nslookup("boostrap-url")
 
 kafka_topic_name = "my-kafka-topic"
-bootstrap_hostname = 'bootstrap.my-kafka-cluster.us-central1.managedkafka.platform-workspace-a-001.cloud.goog:9092'
+bootstrap_hostname = 'boostrap-url'
 
 with open(os.environ['GOOGLE_APPLICATION_CREDENTIALS'], "rb") as f:
     result = base64.b64encode(f.read())

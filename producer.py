@@ -11,7 +11,7 @@ region = ''
 project_id = ''
 port = ''
 kafka_topic_name = "my-kafka-topic"
-bootstrap_hostname = 'bootstrap.my-kafka-cluster.us-central1.managedkafka.platform-workspace-a-001.cloud.goog:9092'
+bootstrap_hostname = 'boostrap-url'
 
 # Set up the config for Kafka
 # Using OAUTHBEARER mechanism and local auth server
