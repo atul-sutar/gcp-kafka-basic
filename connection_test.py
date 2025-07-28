@@ -29,7 +29,7 @@ with open(os.environ['GOOGLE_APPLICATION_CREDENTIALS'], "rb") as f:
         'group.id': 'group1',
         'security.protocol': 'SASL_SSL',
         'sasl.mechanisms': 'PLAIN',
-        'sasl.username': 'kafka-producer-consumer@platform-workspace-a-001.iam.gserviceaccount.com',
+        'sasl.username': 'service-account-name',
         'sasl.password': password,
 
     }
