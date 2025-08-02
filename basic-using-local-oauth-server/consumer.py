@@ -1,8 +1,4 @@
 import confluent_kafka
-import datetime
-import random
-import json
-import uuid
 
 # This example uses Confluent's Python Client for Apache Kafka
 # https://github.com/confluentinc/confluent-kafka-python
