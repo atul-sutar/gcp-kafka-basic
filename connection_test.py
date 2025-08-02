@@ -1,10 +1,11 @@
 import base64
-import confluent_kafka
 import datetime
 import json
 import os
 import random
 import socket
+
+import confluent_kafka
 
 
 def nslookup(domain):
